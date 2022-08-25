@@ -1,4 +1,5 @@
 import React from "react";
+import ProfileImg from '../assets/img/pp.jpeg'
 
 const Profile = () => {
     const d = new Date();
@@ -8,7 +9,7 @@ const Profile = () => {
     <>
       <div className="profile">
         <div className="left pointer">
-          {/* <img src={ProfileImg} alt="" /> */}
+          <img src={ProfileImg} alt="" />
           <div className="name">
             <p className="fs-14 fw-600">meinjam</p>
             <p className="text-gray fs-14">Injamamul Haque</p>
