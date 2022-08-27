@@ -9,8 +9,8 @@
 #### Project installation
 1. Clone Repository
 ```
-$ git clone https://github.com/soykot2910/facebook-clone-assessment.git
-$ cd facebook-clone-assessment
+$ git clone https://github.com/soykot2910/instagram-clone-assessment
+$ cd instagram-clone-assessment
 ```
 2. Install dependencies
 
