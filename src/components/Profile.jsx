@@ -9,10 +9,10 @@ const Profile = () => {
     <>
       <div className="profile">
         <div className="left pointer">
-          <img src={ProfileImg} alt="" />
+          <img src="https://avatars.githubusercontent.com/u/44709658?v=4" alt="" />
           <div className="name">
-            <p className="fs-14 fw-600">meinjam</p>
-            <p className="text-gray fs-14">Injamamul Haque</p>
+            <p className="fs-14 fw-600">soykot</p>
+            <p className="text-gray fs-14">Md Soykot</p>
           </div>
         </div>
         <div className="right">

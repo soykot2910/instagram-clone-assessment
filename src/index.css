@@ -82,6 +82,11 @@ nav {
   border-bottom: 1px solid rgb(219, 219, 219);
 }
 
+.nav-wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
 nav .navbar-brand img {
   width: 100px;
 }
@@ -201,8 +206,8 @@ nav .main-nav .right-section .icons img {
 
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 14px;
-  font-weight: bold;
+  font-size: 1rem !important;
+  font-weight: bold !important;
 }
 
 .swiper-slide:first-child {
@@ -329,20 +334,6 @@ nav .main-nav .right-section .icons img {
   align-items: center;
   justify-content: space-between;
 }
-
-.homepage .main-sec .posts .single .footer .actions svg {
-  fill: #262626;
-  cursor: pointer;
-}
-
-.homepage .main-sec .posts .single .footer .actions svg.unlike {
-  fill: #ed4956;
-  cursor: pointer;
-}
-
-/* .homepage .main-sec .posts .single .footer .actions svg:hover {
-  fill: #8e8e8e !important;
-} */
 
 .homepage .main-sec .posts .single .footer .actions svg.chat {
   margin: 0 10px;
@@ -511,12 +502,12 @@ nav .main-nav .right-section .icons img {
 }
 
 .homepage .profile-sec .company-info ul li a::after {
-  content: '\00B7';
+  content: "\00B7";
   margin: 0 5px 0 5px;
 }
 
 .homepage .profile-sec .company-info ul li a.last::after {
-  content: '';
+  content: "";
 }
 
 .homepage .profile-sec .company-info p {

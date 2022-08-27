@@ -12,8 +12,6 @@ class StorySlider extends Component {
       <Swiper
         spaceBetween={10}
         slidesPerView={7}
-        // onSlideChange={() => console.log('slide change')}
-        // onSwiper={(swiper) => console.log(swiper)}
         navigation
         modules={[Navigation]}
         slidesPerGroup={4}
@@ -81,7 +79,7 @@ export default StorySlider;
 
 const SingleStory = ({ img_id, name }) => (
   <div className='single'>
-    <img src={'https://via.placeholder.com/600/' + img_id} alt='' />
+    <img src={'https://via.placeholder.com/600/' + "07g634"} alt='' />
     <p className='name'>{name}</p>
   </div>
 );
